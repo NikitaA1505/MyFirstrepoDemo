@@ -1631,3 +1631,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2024-07-09 22:01:57,158 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Eclipse_Sw1\DemoProject1\src\main\resources
 2024-07-09 22:01:57,161 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2024-07-09 22:01:57,168 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Eclipse_Sw1\DemoProject1\src\test\resources
+2024-07-10 11:33:00,468 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
