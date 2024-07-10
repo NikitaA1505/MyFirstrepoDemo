@@ -1,0 +1,17 @@
+
+public class StringConcate {
+
+	public static void main(String[] args) {
+	
+		
+		
+		String Str1 = "Abhijeet";
+		String str2= "Nikita";
+		String str3= "same";
+		
+		String conString=Str1.concat(str2).concat(str3);
+		System.out.println(conString);
+
+	}
+
+}

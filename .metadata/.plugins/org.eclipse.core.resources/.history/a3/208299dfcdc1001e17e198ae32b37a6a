@@ -1,0 +1,27 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BaseClass {
+
+	public static void main(String[] args) {
+		
+         
+           
+           WebDriver driver;
+           System.setProperty("webdriver.chrome.driver","D:\\Drivers\\chromedriver.exe");
+           driver = new ChromeDriver();
+           
+           loginPOM l1 = new loginPOM (driver);
+           
+           l1.registerLinkMethod();
+           l1.firstNameMethod();
+           l1.lastNameMethod();
+           l1.emailIDMethod();
+		
+		
+		
+		
+		
+	}
+
+}

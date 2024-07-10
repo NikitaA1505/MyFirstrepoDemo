@@ -1,0 +1,23 @@
+import java.util.Arrays;
+
+public class sortingOfArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		int a[]= {10,33,12,343,88,99};
+		
+	 System.out.println(Arrays.toString(a));
+	 
+	 //to sort element with predefind method
+	 
+	  Arrays.sort(a);
+	 
+	System.out.println(Arrays.toString(a));
+		
+		
+		
+	}
+
+}

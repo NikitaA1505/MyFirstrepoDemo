@@ -1,0 +1,51 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
+
+public class loginPOM2 {
+
+	WebDriver driver;
+	
+	@FindBy(how=How.LINK_TEXT,using="REGISTER")
+	WebElement registerLink ;
+	
+	
+	@FindBy (name="firstName")
+	WebElement FirstName;
+	
+	
+	@FindBy (name="lastName")
+	WebElement LastName;
+	
+	@FindBy (name="emailID")
+	WebElement EmailID;
+	
+	
+	public loginPOM2 (WebDriver d) {
+		driver =d;
+		
+		PageFactory.initElements(d,this); // additional Step in second method
+	}
+	
+	
+	public void registerMethod() {
+		registerLink.click();
+	}
+	
+	public void FirstNameMethod(String first) {
+		FirstName.sendKeys(first);
+	}
+	
+	public void LastNameMethod(String last) {
+		FirstName.sendKeys(last);
+	}
+	
+	
+	public void EmailIdMethod(String email) {
+		FirstName.sendKeys(email);
+	}
+	
+	
+}
